@@ -1,4 +1,4 @@
-const GPTResearcher = (() => {
+const AreaIntelAI = (() => {
   let isResearchActive = false;
   let connectionTimeout = null;
   let conversationHistory = [];
@@ -2466,4 +2466,4 @@ const GPTResearcher = (() => {
   }
 })()
 
-window.addEventListener('DOMContentLoaded', GPTResearcher.init)
+window.addEventListener('DOMContentLoaded', AreaIntelAI.init)

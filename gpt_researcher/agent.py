@@ -146,7 +146,7 @@ class GPTResearcher:
         self.source_urls = source_urls
         self.document_urls = document_urls
         self.complement_source_urls = complement_source_urls
-       self.query_domains = query_domains or [
+        self.query_domains = query_domains or [
             "zillow.com", "redfin.com", "realtor.com", 
             "neighborhoodscout.com", "city-data.com"
         ]
